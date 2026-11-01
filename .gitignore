@@ -1,0 +1,15 @@
+# Dependencies / build output
+node_modules/
+dist/
+*.zip
+*.crx
+
+# Secrets (Gemini / Supabase keys, extension signing key)
+.env
+.env.*
+*.pem
+
+# Logs / OS
+npm-debug.log*
+*.log
+.DS_Store
